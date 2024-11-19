@@ -37,7 +37,7 @@ class _HomepageState extends State<Homepage> {
 
     });
   }
-  void saveNewTask(){
+  void saveNewTask() {
     setState(() {
       db.toDoList.add([_controller.text, false]);
       _controller.clear();
