@@ -45,6 +45,13 @@ class _HomepageState extends State<Homepage> {
     Navigator.of(context).pop();
     db.updateDataBase();
   }
+  void cancelDialog(){
+  setState(() {
+    _controller.clear();
+  });
+  Navigator.of(context).pop();
+  }
+
   void removeTask(int index){
 setState(() {
   db.toDoList.removeAt(index);
@@ -55,7 +62,7 @@ setState(() {
     showDialog(context: context, builder: (context){
       return DialogBox(
         controller: _controller,
-        onCancel: Navigator.of(context).pop,
+        onCancel: cancelDialog,
         onSaved: saveNewTask,
       );
     }
