@@ -39,16 +39,16 @@ class MyTile extends StatelessWidget {
           padding: const EdgeInsets.all(15),
 
           decoration: BoxDecoration(
-              color: Colors.grey.shade200,
+              color: Colors.green[99],
               borderRadius: BorderRadius.circular(12),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.grey.shade700,
+                  color: Colors.grey.shade900,
                   offset: const Offset(4,4),
                   blurRadius: 6,
                 ),
-                const BoxShadow(
-                  color: Colors.white,
+                BoxShadow(
+                  color: Colors.green.shade50,
                   offset: Offset(-4,-4),
                   blurRadius: 6,
                 ),
@@ -59,14 +59,20 @@ class MyTile extends StatelessWidget {
               Checkbox(
                   value: isChecked,
                   onChanged: onChanged,
-                  activeColor: Colors.black,
+                  checkColor: Colors.green,
+                focusColor: Colors.white,
+                hoverColor: Colors.white,
+                activeColor: Colors.white,
               ),
               Expanded(
                 child: Text(
                      taskName,
                     softWrap: true,
-                    style: TextStyle(color: Colors.black,
-                        decoration: isChecked? TextDecoration.lineThrough : TextDecoration.none)
+                    style: TextStyle(color: Colors.white,
+                        fontSize: 16,
+                        decoration: isChecked? TextDecoration.lineThrough : TextDecoration.none,
+                        decorationColor: isChecked ? Colors.red : Colors.transparent,
+                    decorationThickness: 3)
                 ),
               ),
             ],

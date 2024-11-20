@@ -77,12 +77,12 @@ setState(() {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      backgroundColor: Colors.grey.shade200,
+      backgroundColor: Colors.green[101],
 
       appBar: AppBar(
         foregroundColor: Colors.white,
         elevation: 0,
-        backgroundColor: Colors.grey.shade800,
+        backgroundColor: Colors.green[1],
         centerTitle: true,
         title: const Row(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -111,22 +111,22 @@ setState(() {
             padding: const EdgeInsets.all(10),
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(15),
-              color: Colors.grey.shade300,
+              color: Colors.green[1],
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.shade700,
+                    color: Colors.black45,
                     offset: const Offset(4,4),
                     blurRadius: 6,
                   ),
-                   const BoxShadow(
-                    color: Colors.white,
+                  BoxShadow(
+                    color: Colors.white38,
                     offset: Offset(-4,-4),
                     blurRadius: 6,
                   ),
                 ]
 
             ),
-            child: const Icon(Icons.add, size: 40,)
+            child: const Icon(Icons.add, size: 40, color: Colors.white,)
         ),
       ),
     );

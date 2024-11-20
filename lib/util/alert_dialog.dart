@@ -15,7 +15,7 @@ class DialogBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      backgroundColor: Colors.grey[800],
+      backgroundColor: Colors.green[1],
       elevation: 8,
       content: SizedBox(
         height :150,
@@ -26,6 +26,7 @@ class DialogBox extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(12.0),
               child: TextField(
+                cursorColor: Colors.blueGrey,
 
                 controller: controller,
                 style: const TextStyle(color: Colors.white),
