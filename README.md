@@ -6,7 +6,6 @@ A simple yet powerful to-do app built with Flutter and Hive for local data persi
 
 * **Add tasks:** Easily create new tasks with titles and optional descriptions.
 * **Mark as complete:** Check off tasks as you finish them.
-* **Edit tasks:** Update task details as needed.
 * **Delete tasks:** Remove tasks that are no longer relevant.
 * **Local persistence:** Your tasks are stored locally using Hive, ensuring they're available even when offline.
 
