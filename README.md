@@ -39,8 +39,7 @@ samples, guidance on mobile development, and a full API reference.
 
 1. **Add a new task:** Tap the "+" button.
 2. **Mark a task as complete:** Tap the checkbox next to the task.
-3. **Edit a task:** Long-press on the task to open the edit screen.
-4. **Delete a task:** Swipe left or right on the task to delete it.
+3. **Delete a task:** Swipe left or right on the task to delete it.
 
 ## Contributing
 
