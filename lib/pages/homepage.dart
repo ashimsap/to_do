@@ -123,8 +123,7 @@ setState(() {
                     offset: Offset(-4,-4),
                     blurRadius: 6,
                   ),
-                ]
-
+                ],
             ),
             child: const Icon(Icons.add, size: 40, color: Colors.white,)
         ),

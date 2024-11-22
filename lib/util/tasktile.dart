@@ -34,10 +34,8 @@ class MyTile extends StatelessWidget {
             ),
             ]
         ),
-
         child: Container(
           padding: const EdgeInsets.all(15),
-
           decoration: BoxDecoration(
               color: Colors.green[99],
               borderRadius: BorderRadius.circular(12),
