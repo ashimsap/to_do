@@ -15,7 +15,6 @@ class MyTile extends StatelessWidget {
     required this.deleteTask,
 
   });
-
   @override
   Widget build(BuildContext context) {
     return  Padding(

@@ -11,7 +11,6 @@ class DialogBox extends StatelessWidget {
     required this.onCancel,
     required this.onSaved
   });
-
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
@@ -27,7 +26,6 @@ class DialogBox extends StatelessWidget {
               padding: const EdgeInsets.all(12.0),
               child: TextField(
                 cursorColor: Colors.blueGrey,
-
                 controller: controller,
                 style: const TextStyle(color: Colors.white),
                 decoration: InputDecoration(
