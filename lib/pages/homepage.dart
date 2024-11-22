@@ -51,9 +51,9 @@ class _HomepageState extends State<Homepage> {
   setState(() {
     _controller.clear();
   });
-
   Navigator.of(context).pop();
   }
+
 //Delete task function
   void removeTask(int index){
 setState(() {
