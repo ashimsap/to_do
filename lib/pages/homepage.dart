@@ -23,10 +23,8 @@ class _HomepageState extends State<Homepage> {
     else{
       db.loadData();
     }
-
     super.initState();
   }
-
 
   final _controller = TextEditingController();
 //Checkbox function
