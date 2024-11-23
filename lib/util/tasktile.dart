@@ -13,7 +13,6 @@ class MyTile extends StatelessWidget {
     required this.taskName,
     required this.onChanged,
     required this.deleteTask,
-
   });
   @override
   Widget build(BuildContext context) {
