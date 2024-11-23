@@ -11,9 +11,11 @@ class ToDoDataBase {
     ["Create a New task", false]
    ];
  }
+
  void loadData(){
    toDoList = _myBox.get("TODOLIST");
  }
+
  void updateDataBase(){
    _myBox.put("TODOLIST", toDoList);
  }
