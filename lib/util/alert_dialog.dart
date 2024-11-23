@@ -9,7 +9,7 @@ class DialogBox extends StatelessWidget {
     super.key,
     required this.controller,
     required this.onCancel,
-    required this.onSaved
+    required this.onSaved,
   });
   @override
   Widget build(BuildContext context) {
