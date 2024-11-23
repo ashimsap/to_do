@@ -32,7 +32,6 @@ class _HomepageState extends State<Homepage> {
     setState(() {
       db.toDoList[index][1]=!db.toDoList[index][1];
       db.updateDataBase();
-
     });
   }
   //Save button function
@@ -102,7 +101,7 @@ setState(() {
           );
         },
       ),
-
+        // Floating Action Button
       floatingActionButton: GestureDetector(
         onTap: createNewTask,
         child: Container(
