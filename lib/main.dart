@@ -8,7 +8,6 @@ void main() async{
   var box = await Hive.openBox("mybox");
   runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
   MyApp({super.key});
   // This widget is the root of your application.
