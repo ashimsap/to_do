@@ -54,6 +54,3 @@ class DialogBox extends StatelessWidget {
     );
   }
 }
-
-
-
