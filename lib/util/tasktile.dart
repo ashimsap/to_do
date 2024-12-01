@@ -79,5 +79,3 @@ class MyTile extends StatelessWidget {
     );
   }
 }
-
-
